@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun pressNumBtn(){
             binding.point.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}."
                     binding.finalView.text = ""
                 }
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                 }
              }
             binding.zero.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}0"
                     binding.finalView.text = ""
                 }
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.one.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}1"
                     binding.finalView.text = ""
                 }
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.two.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}2"
                     binding.finalView.text = ""
                 }
@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.three.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}3"
                     binding.finalView.text = ""
                 }
@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.four.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}4"
                     binding.finalView.text = ""
                 }
@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.five.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}5"
                     binding.finalView.text = ""
                 }
@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.six.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}6"
                     binding.finalView.text = ""
                 }
@@ -109,7 +109,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.seven.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}7"
                     binding.finalView.text = ""
                 }
@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.eight.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}8"
                     binding.finalView.text = ""
                 }
@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             binding.nine.setOnClickListener {
-                if(binding.inputView.text.length<=16) {
+                if(binding.inputView.text.length<=12) {
                     binding.inputView.text = "${binding.inputView.text}9"
                     binding.finalView.text = ""
                 }
@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun operationBtn(){
         binding.plus.setOnClickListener {
-            if(binding.inputView.text.length<=16) {
+            if(binding.inputView.text.length<=12) {
                 binding.inputView.text = "${binding.inputView.text}+"
                 binding.finalView.text = ""
             }
@@ -183,7 +183,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         binding.minus.setOnClickListener {
-            if(binding.inputView.text.length<=16) {
+            if(binding.inputView.text.length<=12) {
                 binding.inputView.text = "${binding.inputView.text}-"
                 binding.finalView.text = ""
             }
@@ -192,7 +192,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         binding.multiply.setOnClickListener {
-            if(binding.inputView.text.length<=16) {
+            if(binding.inputView.text.length<=12) {
                 binding.inputView.text = "${binding.inputView.text}*"
                 binding.finalView.text = ""
             }
@@ -201,7 +201,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         binding.divide.setOnClickListener {
-            if(binding.inputView.text.length<=16) {
+            if(binding.inputView.text.length<=12) {
                 binding.inputView.text = "${binding.inputView.text}/"
                 binding.finalView.text = ""
             }

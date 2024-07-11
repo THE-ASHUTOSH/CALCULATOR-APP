@@ -49,4 +49,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation ("com.udojava:EvalEx:2.5")//use of dependency for calculating
+    implementation ("org.jetbrains.kotlin:kotlin-script-runtime:1.8")
 }
